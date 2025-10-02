@@ -57,7 +57,7 @@ def obtener_nombres_torres(): #asigan nombres a las torres
 def main():
     try:
         n = obtener_n()  # Obtener el número de discos
-        if not (1 <= n <= 40):  # Validar el rango permitido
+        if not (1 <= n <= 20):  # Validar el rango permitido
             raise ValueError
     except:
         print("Error: Ingrese un número entero válido entre 1 y 20.")  # Mensaje de error
